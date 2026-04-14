@@ -1,0 +1,684 @@
+
+@charset "UTF-8";
+
+body { 
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto; 
+    min-height: 100vh;
+}
+
+
+
+.btn-container-one {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #161616;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    position: fixed; /* Fixed position on the page */
+    bottom: 200rem; /* Distance from the bottom */
+    left: 50px;
+    cursor: pointer;
+  }
+  
+  
+  .next {
+    position:absolute;
+    color:#C0A062;;
+    font-size: 24px;
+    top: 60%;
+    left: 45%;
+    margin-top: -14px;
+     font-size: 15px;
+     font-family: "Lucida Console"
+    
+  }
+  
+  div.arrow-one {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 73%;
+    top: 60%;
+    margin-top: -10px;
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  div.arrow-one::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #C0A062;
+    transition: .2s ease;
+    display: block;
+    /*		transform-origin: 100% 0; */
+  }
+  div.arrow-one:after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #C0A062;
+    -webkit-transform-origin: 108% 0;
+            transform-origin: 108% 0;
+    transition: .2s ease;
+  }
+  .btn-container-one:hover{
+    border-color: #161616;
+    border:4px #161616  ;
+
+  }
+  
+  .btn-container-one:hover .arrow-one:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+
+
+  .btn-container-two {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #161616;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    position: fixed; /* Fixed position on the page */
+    bottom: 200rem; /* Distance from the bottom */
+    left: 170px;
+    cursor: pointer;
+  }
+  
+  
+  .next2 {
+    position:absolute;
+    color:#C0A062;;
+    font-size: 24px;
+    top: 60%;
+    left: 45%;
+    margin-top: -14px;
+     font-size: 15px;
+     font-family: "Lucida Console"
+    
+  }
+  
+  div.arrow-two {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 73%;
+    top: 60%;
+    margin-top: -10px;
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  div.arrow-two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #C0A062;
+    transition: .2s ease;
+    display: block;
+    /*		transform-origin: 100% 0; */
+  }
+  div.arrow-two:after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #C0A062;
+    -webkit-transform-origin: 108% 0;
+            transform-origin: 108% 0;
+    transition: .2s ease;
+  }
+  .btn-container-two:hover{
+    border-color: #161616;
+    border:4px #161616  ;
+
+  }
+  
+  .btn-container-two:hover .arrow-two:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+.maintext{
+    margin-top: 15rem;
+}
+  .skilllogo1 {
+    font-size: 2rem;
+    font-family: "Droid Serif", Georgia, serif;
+    
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    text-align: left; /* Or adjust as needed */
+    margin-top: -11rem;
+    margin-left: 6.3rem;
+    z-index: 2;
+    cursor: pointer;
+    position: fixed; 
+}
+.skilllogo2{
+    transform: scale(0.20);
+    margin-left: -57.5em;
+    margin-top: -21.3rem;
+    cursor: pointer;
+    position: fixed; 
+}
+.skilllogo3{
+    transform: scale(0.18);
+    margin-left: -50.5em;
+    margin-top: -21rem;
+    cursor: pointer;
+    position: fixed; 
+}
+
+.skilllogo4 {
+    font-size: 6rem;
+    font-family: "Droid Serif", Georgia, serif;
+    
+    color: #ffffff;
+    letter-spacing: .02em;
+    text-align: left; /* Or adjust as needed */
+    margin-top:-2.2rem;
+    margin-left: 6rem;
+    z-index: 2;
+    cursor: pointer;
+    position: fixed; 
+}
+
+.skilltext{
+    transform: scale(.40);
+    margin-left: -17em;
+    margin-top: 1rem;
+    cursor: pointer;
+    position: fixed; 
+}
+
+
+
+
+.skill{
+  margin-bottom: 10rem;
+  margin-top: 1rem;
+}
+.colum {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    gap: 120px; /* Space between images */
+    position: relative;
+    width: 90px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 52rem;
+   
+}
+
+
+#verticleline1{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -94.7em;
+  margin-left: 63em;
+  margin-bottom: 15em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute;
+}
+#verticleline2{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -81.5em;
+  margin-left: 63em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute;
+}
+
+#verticleline3{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -68.5em;
+  margin-left: 63em;
+  
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute;
+}
+#verticleline4{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -56em;
+  margin-left: 63em;
+  margin-bottom: 10em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute;
+}
+#verticleline5{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -44.5em;
+  margin-left: 63em;
+  
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute;
+}
+#verticleline6{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -31.5em;
+  margin-left: 63em;
+  margin-bottom: 10em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute
+}
+
+#verticleline7{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -18.5em;
+  margin-left: 63em;
+  margin-bottom: 10em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute
+}
+
+#verticleline8{
+
+  width:1px;
+  height:88px;
+  background-color: white;
+  display: flex;  
+  margin-top: -5.5em;
+  margin-left: 63em;
+  margin-bottom: 11.5em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute
+}
+
+.checkpoint11{
+  margin-top: -66rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint1 {
+  max-width: 25em;
+  margin-top: -40em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint1 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+.checkpoint22{
+  margin-top: -53rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint2 {
+  max-width: 25em;
+  margin-top: -40em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint2 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+.checkpoint33{
+  margin-top: -66rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint3 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint3 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+.checkpoint44{
+  margin-top: -52.5rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint4 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint4 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+.checkpoint55{
+  margin-top: -40.5rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint5 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint5 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+
+.checkpoint66{
+  margin-top: -28rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint6 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint6 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+
+.checkpoint77{
+  margin-top: -14.7rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint7 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint7 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+
+.checkpoint88{
+  margin-top: -8rem;
+  margin-left: 40rem;
+  position: absolute;
+}
+.checkpoint8 {
+  max-width: 25em;
+  margin-top: -15.2em;
+  margin-left: 25.5em;
+  margin-bottom: 20em;
+  position:relative;
+  font-size: 1rem;
+  font-family: "Droid Serif", Georgia, serif;
+  line-height: 30px;
+  color: #999999;
+}
+.checkpoint8 h2 {
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+
+.stars1 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -81.5em;
+  margin-left: 55em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars1 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars1 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars2 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -71.6em;
+  margin-left: 55em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars2 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars2 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars3 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -62.4em;
+  margin-left: 56em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars3 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars3 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars4 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -52.1em;
+  margin-left: 54em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars4 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars4 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars5 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -42.9em;
+  margin-left: 54em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars5 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars5 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars6 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -33.2em;
+  margin-left: 54em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars6 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars6 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+
+.stars7 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -22.9em;
+  margin-left: 56em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars7 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars7 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+
+.stars8 {
+  display: flex;
+  font-size: 1.3rem; /* Adjust star size */
+  margin-top: -11.5em;
+  margin-left: 58em;
+  position: absolute;
+}
+
+/* Base style for all stars */
+.stars8 span {
+  color: #ccc; /* Default gray color for stars */
+  margin: 0 5px; /* Space between stars */
+}
+
+/* Yellow stars */
+.stars8 span.filled {
+  color:  #C0A062; /* Yellow color for filled stars */
+}
+/*text edit*/
+.skilltext{
+    position: fixed;   /* scroll လုပ်လည်း မရွှေ့ */
+    top: 300px;        /* အပေါ်ကနေ distance */
+    left: 365px;       /* ဘယ်ဘက်ကနေ distance */
+    transform: scale(1);
+    z-index: 10;       /* အပေါ်မှာနေဖို့ (important) */
+}
+
+.skill-paragraph {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: "Droid Serif", Georgia, serif;
+  max-width: 500px;
+
+  margin: 0;
+  letter-spacing: 0.05em;
+}

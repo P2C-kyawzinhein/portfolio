@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Profolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+
+        function goToNextPage5() {
+          window.location.href = "index.html"; // Path to the next page
+      }
+      function goToNextPage() {
+          window.location.href = "profolio2.html"; // Path to the next page
+      }
+      function goToNextPage2() {
+          window.location.href = "profolio2.html"; // Path to the next page
+      }
+      function goToNextPage3() {
+          window.location.href = "profolio3.html"; // Path to the next page
+      }
+      function goToNextPage4() {
+          window.location.href = "profolio4.html"; // Path to the next page
+      }
+    
+
+        ScrollReveal({ reset: true });
+
+      ScrollReveal().reveal(".show-once", {
+      reset: false
+      });
+  </script>
+
+</script>
+
+  </head>
+
+  <body>
+
+    
+    <div class="upperwrap">
+    <header>
+   
+     
+      <h2 class="topbutton">KzH</h2> 
+ 
+      
+      <h2 class="toptext">KYAW ZIN HEIN</h2>
+
+
+      <div class="uppertext">
+       <nav>
+        <ul class="nav">
+        <li><a href="#Profile"><button onclick="goToNextPage5()">Profile</button></a></li>
+        <li><a href="#mywork"><button onclick="goToNextPage()">Mywork</button></a></li>
+        <li><a href="#Resume"><button class="download-btn" onclick="downloadPDF()">Resume</button></a></li>
+       </ul>
+       </nav>
+       <script>
+        function downloadPDF() {
+          const link = document.createElement('a');
+          link.href = 'https://drive.google.com/drive/u/0/folders/1SSuyVFDMCrV-JoIoeHuTPnrYe2lDYMff'; // Replace with your PDF file path
+          link.download = 'images/KZHein Resume.pdf'; // Set the desired file name
+          link.click();
+        }
+      </script>
+      </div>
+
+      
+      <script>
+        ScrollReveal().reveal(".uppertext", {
+  duration: 1500,
+  origin: "top",
+  distance: "200px",
+  reset: false,
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+  rotate: {
+    x: 20,
+    z: -10
+  }
+});
+
+        </script>
+
+       <h1 class="text1"> へインです.</h1> 
+      <script>
+        ScrollReveal().reveal(".text1", {
+   duration: 1000,
+   origin: "left",  
+   distance: "150px",
+   reset: false,
+   easing: "ease-in-out"
+   
+   });
+   </script>
+
+  
+       
+       <h1 class="text2">AI Engineer. </h1>
+       <script>
+        ScrollReveal().reveal(".text2", {
+   duration: 1000,
+   origin: "right",
+   distance: "150px",
+   reset: false,
+   easing: "ease-in-out"
+   });
+   </script>
+
+       <h1 class="text3">Deplover </h1> 
+       <script>
+        ScrollReveal().reveal(".text3", {
+   duration: 1000,
+   origin: "left",
+   distance: "150px",
+   reset: false,
+   easing: "ease-in-out"
+   });
+   </script>
+
+       <h1 class="text4">Travel. </h1>
+       <script>
+        ScrollReveal().reveal(".text4", {
+   duration: 1000,
+   origin: "right",
+   distance: "150px",
+   reset: false,
+   easing: "ease-in-out"
+   });
+   </script>
+
+
+       <div class="verticle-line1"></div>
+       <script>
+     ScrollReveal().reveal(".verticle-line1", {
+duration: 800,
+origin: "left",
+distance: "150px",
+reset: false,
+easing: "ease-in-out"
+});
+</script>
+       <h2 class="email">kyawzinhein.jp.edu@gmail.com</h2>
+       <script>
+        ScrollReveal().reveal(".email", {
+          duration: 2000,
+          scale: 0.95,
+          reset: false,
+        });
+      </script>
+       
+     
+
+       
+    </header>
+    <main>
+      <img src="images/coma.png" alt="coma1" class="coma1">
+      <img src="images/coma.png" alt="coma2" class="coma2">
+
+    
+
+        <section id="about-me">
+
+          <div class="container">
+            
+            <p>
+              こんにちは！僕の名前は<strong><p3>　チョウジンヘイン　</p3></strong>です。現在、東京を拠点に活動している<p3> AIエンジニア </p3>です。
+              東京みらいAI＆IT専門学校を卒業しました。AI開発やプログラミングのスキルを磨きながら、使いやすく価値のあるシステムを作ることに取り組んでいます。
+              テクノロジーと創造性への情熱を持ち、アイデアをコードで形にするプロセスにやりがいを感じています。<p3>機能性と実用性を兼ね備えた、</p3>
+              社会にインパクトを与えるプロジェクトの実現を目指しています。
+            </p>
+
+
+
+            <p2><p3>一緒に </p3>素晴らしいものを作りましょう！</p2>
+
+            <div id="verticle-line2"></div>
+            
+             
+            
+   
+          </div>
+
+          <script>
+            ScrollReveal().reveal(".container", {
+              duration: 2000,
+              scale: 0.95,
+              reset: false,
+            });
+          </script>
+
+<img src="images/dodo.png" class="dodo1" >
+        </section>
+
+        <section id="profile">
+
+        <div class="timelinetitle">
+          My <p1>Education</p1> Timeline
+        </div>
+        <script>
+          ScrollReveal().reveal(".timelinetitle", {
+            duration: 2000,
+            scale: 0.95,
+            reset: false,
+          });
+        </script>
+
+        <div class="verticle-line4"></div>
+            <script>
+          ScrollReveal().reveal(".verticle-line4", {
+  duration: 600,
+  origin: "left",
+  distance: "100px",
+  reset: false,
+  easing: "ease-in-out"
+});
+        </script>
+
+        <div class="timelinetitle1"> ここでは私の学歴と実績を紹介します。</div>
+        <script>
+          ScrollReveal().reveal(".timelinetitle1", {
+            duration: 2000,
+            scale: 0.95,
+            reset: false,
+          });
+        </script>
+
+        <div class="timeline">
+         
+          <div class="checkpoint">
+            <div>
+              <h2>2009 - 2015</h2>
+              <p>2009　年の　6　月にミャンマーのNo(2) Basic Education High School Dawei 高等学校に入学しました。2014　年の　6　月にAT Private School Dawei高等学校に入学して　2015　年の　3　月に高校を卒業しました。</p>
+　　　　　　　　</div>
+                 <script>
+          ScrollReveal().reveal(".checkpoint", {
+                  duration: 2000,
+                  scale: 0.85,
+                  reset: false,
+                });
+   </script>
+          </div>
+
+          <div class="checkpoint">
+            <div>
+              <h2>2016 - 2020</h2>
+              <p>2016　年の　7　月にミャンマーの　Dawei Universityで、Philosophy(哲学) を学び始めて、2020　年の　03　月に大学卒業しました。</p>
+            </div>
+            <script>
+              ScrollReveal().reveal(".checkpoint", {
+                      duration: 2000,
+                      scale: 0.85,
+                      reset: false,
+                    });
+       </script>
+
+          </div>
+            <div class="checkpoint">
+              <div>
+                <h2>2022 - 2024</h2>
+                <p>日本で自分のITキャリアの夢を実現するために2022　年の　04　月に神戸KR学院日本語学校に入学することにしました。学校で日本語と日本文化を学び、2024　年の　3　月に卒業しました。</p>
+              </div>
+              <script>
+                ScrollReveal().reveal(".checkpoint", {
+                        duration: 2000,
+                        scale: 0.85,
+                        reset: false,
+                      });
+         </script>
+            </div>
+
+            <div class="checkpoint">
+              <div>
+                <h2>2024 - 2026</h2>
+                <p>2024年4月に東京みらいAI＆IT専門学校に入学し、AIプログラミング＆CGクリエイター科で学びました。
+					在学中は、友人とグループプロジェクトに取り組み、実践的な開発経験を積みました。
+					2026年3月に卒業し、現在は人々に価値を提供できるAIエンジニアとして成長することを目指しています。
+					技術を通じて課題を解決し、ユーザーにとって有益なシステムを開発していきたいと考えています。
+                </p>  
+              </div>
+              <script>
+                ScrollReveal().reveal(".checkpoint", {
+                        duration: 2000,
+                        scale: 0.85,
+                        reset: false,
+                      });
+         </script>
+            </div>
+           
+           
+                  </section>
+   
+    <footer
+      <div class="footer1"></div>
+       
+      <p class="footermaintext"><p>
+      <p class="footerbottom">Copyright © 2017 All Rights Reserved by kyawzinhein</p>
+
+      <div class="verticlelinefooter"></div>
+
+      
+      <p class="about">About</p>
+      <p class="Weblinks">Web links</p>
+      <p class="Navigate1">Navigate</p>
+      <p class="Contact1">Contact</p>
+
+      <div class="verticlelinefooter1"></div>
+      <div class="verticlelinefooter2"></div>
+      <div class="verticlelinefooter3"></div>
+      <div class="verticlelinefooter4"></div>
+
+      <div class="footertext"> こちらは私のポートフォリオです。このプロジェクトを制作するのに1ヶ月半の期間を費やしました。プレゼンテーションを分かりやすくするため、3色のみを使用しています。プロジェクト作成中に参考にしたコーディングの学習サイトを右側でご紹介します。</div>
+       
+      <div class="link">
+      <ul>
+      <li><p class="link1"><a href="https://www.w3schools.com/">>>W3Schools.com!</a></p></li>
+      <li><p class="link2"><a href="https://codepen.io/your-work">>>Codepen.com</a></p></li>
+      <li><p class="link2"><a href="https://www.codecademy.com/">>>Codecademy.com</a></p></li>
+      </ul>
+      </div>
+
+      <div class="Navigate">
+        <ul>
+        <li><a href="#mywork"><button onclick="goToNextPage5()">-  Profile</button></a></li>
+        <li><a href="#mywork"><button onclick="goToNextPage()">-  Mywork</button></a></li>
+        <li><a href="#mywork"><button class="download-btn" onclick="downloadPDF()">-  Resume</button></a></li>
+        <li><a href="#mywork"><button onclick="goToNextPage3()">-  Myskill</button></a></li>
+        <li><a href="#mywork"><button onclick="goToNextPage4()">-  My Project</button></a></li>
+        </ul>
+        </div>
+
+       
+
+        <div class="Contact">
+          <ul>
+            <li><p>E-mail    - kyawzinhein.jp.edu@gmail.com</p></li>
+            <li><p>Telephone - 080-9564-4706</p></li>
+            <li><p>Address - Aralkawa City ,<br>1-33-2shanboruminowa, Arakawa-ku,<br>Tokyo 120-0002</p></li>
+          </ul>
+    </footer>
+
+    
+  </body>
+
+</html>

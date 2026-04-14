@@ -1,0 +1,514 @@
+
+@charset "UTF-8";
+
+body { 
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto; 
+    min-height: 100vh;
+}
+.toplogo{
+    position: relative;
+    margin-top: -39.8rem;
+
+}
+.topbutton {
+    display: inline-block;
+    padding: 20px 10px; /* Adjusted for better balance */
+    background-color: #C0A062;
+    color: black;
+    text-align: center;
+    font-size: 18px; 
+    margin-bottom: -10px;
+    margin-top:2.5rem ;
+    margin-left: 6.1rem;
+    font-weight: bold;
+    font-family: "Roboto, Helvetica, Arial, sans-serif";
+    cursor: pointer; /* Pointer for clickable feel */
+}
+
+.toptext{
+    position: absolute;
+    display: flex;
+    display: inline-block;
+    color:white;
+    
+    text-align: center;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 60px ;
+    margin-bottom: 10px ;
+    font-weight: bold;
+    font-family: "Lucida Console";
+    cursor: pointer;
+    
+}
+
+.btn-container-one {
+    width: 140px;
+    height: 40px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    position: fixed; /* Fixed position on the page */
+    bottom: 200rem; /* Distance from the bottom */
+    left: 50px;
+    cursor: pointer;
+  }
+  
+  
+  .next {
+    position:absolute;
+    color:#C0A062;;
+    font-size: 24px;
+    top: 60%;
+    left: 45%;
+    margin-top: -14px;
+     font-size: 15px;
+     font-family: "Lucida Console"
+    
+  }
+  
+  div.arrow-one {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 73%;
+    top: 60%;
+    margin-top: -10px;
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  
+  div.arrow-one::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #C0A062;
+    transition: .2s ease;
+    display: block;
+    /*		transform-origin: 100% 0; */
+  }
+  div.arrow-one:after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #C0A062;
+    -webkit-transform-origin: 108% 0;
+            transform-origin: 108% 0;
+    transition: .2s ease;
+  }
+  .btn-container-one:hover{
+    border-color: #161616;
+    border:4px #161616  ;
+
+  }
+  
+  .btn-container-one:hover .arrow-one:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+
+
+  .btn-container-two {
+    width: 140px;
+    height: 40px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    position: fixed; /* Fixed position on the page */
+    bottom: 200rem; /* Distance from the bottom */
+    left: 170px;
+    cursor: pointer;
+  }
+  
+  
+  .next2 {
+    position:absolute;
+    color:#C0A062;;
+    font-size: 24px;
+    top: 60%;
+    left: 45%;
+    margin-top: -14px;
+     font-size: 15px;
+     font-family: "Lucida Console"
+    
+  }
+  
+  div.arrow-two {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 73%;
+    top: 60%;
+    margin-top: -10px;
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  div.arrow-two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #C0A062;
+    transition: .2s ease;
+    display: block;
+    /*		transform-origin: 100% 0; */
+  }
+  div.arrow-two:after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #C0A062;
+    -webkit-transform-origin: 108% 0;
+            transform-origin: 108% 0;
+    transition: .2s ease;
+  }
+  .btn-container-two:hover{
+    border-color: transparent;
+    border:4px transparent  ;
+
+  }
+  
+  .btn-container-two:hover .arrow-two:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+  .poster1{
+   
+        transform: scale(0.9);
+        margin-left: 11em;
+        margin-top: 34rem;
+        cursor: pointer;
+        position: absolute; 
+        filter: brightness(80%);
+    
+  }
+
+  .gameproject p1{
+    
+        font-size: 150px;
+        font-family: 'Barriecito', cursive;
+        margin-top: 4rem;
+        color: #ffffff;
+        letter-spacing: -0.02em;
+        text-align: left; /* Or adjust as needed */
+        position: absolute;
+        margin-left: 16rem;
+        cursor: pointer;
+    
+  }
+.title{
+    font-size: 4rem;
+  font-family:"Driod Serif",Georgia,serif;
+  position: absolute;
+  margin-top:105rem;
+  margin-left: 24rem;
+  color: #ffffff;
+}
+
+
+.verticleline1{
+
+    width:1px;
+    height:140px;
+    background-color: #C0A062;
+    display: flex;  
+    margin-top: 105em;
+    margin-left: 43em;
+    text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+    position: absolute; 
+}
+
+
+.title1{
+    display: flex;
+    font-family: "Droid Serif", Georgia, serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top:105rem;
+    margin-left: 50rem;
+    cursor: pointer;
+    position: absolute;
+    max-width: 300px;
+}
+
+.presentation{
+    
+   
+    transform: scale(0.35);
+    margin-left: -15em;
+    margin-top: 154rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(90%);
+
+}
+.poster{
+    
+   
+    transform: scale(0.15);
+    margin-left: -31em;
+    margin-top: 177.5rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(90%);
+
+}
+
+.title2{
+    display: flex;
+    font-family: "Droid Serif", Georgia, serif;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-top:195rem;
+    margin-left: 20rem;
+    cursor: pointer;
+    position: absolute;
+    max-width: 310px;
+}
+
+.verticleline2{
+
+    width:150px;
+    height:1px;
+    background-color: #C0A062;
+    display: flex;  
+    margin-top: 205em;
+    margin-left: 23.6em;
+    text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+    position: absolute; 
+}
+.award{
+    
+   
+    transform: scale(0.4);
+    margin-left: -9.2em;
+    margin-top: 262rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(90%);
+
+}
+
+.title3{
+    display: flex;
+    font-family: "Droid Serif", Georgia, serif;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-top:255rem;
+    margin-left: 58rem;
+    cursor: pointer;
+    position: absolute;
+    max-width: 230px;
+}
+
+.border11{
+    
+   
+    transform: scale(0.5);
+    margin-left:53em;
+    margin-top: 240rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(90%);
+
+}
+
+.border12{
+    
+   
+    transform: scale(0.5);
+    margin-left:69em;
+    margin-top: 290rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(90%);
+
+}
+.dodo{
+    transform: scale(0.025);
+    margin-left:-75em;
+    margin-top: 325rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    position: absolute; 
+    filter: brightness(60%);
+
+}
+.gameproject2 p1{
+    
+    font-size: 150px;
+    font-family: 'Barriecito', cursive;
+    margin-top: 183rem;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    text-align: left; /* Or adjust as needed */
+    position: absolute;
+    margin-left: 15rem;
+    cursor: pointer;
+
+}
+
+.title4{
+    display: flex;
+    font-family: "Droid Serif", Georgia, serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top:365rem;
+    margin-left: 18rem;
+    cursor: pointer;
+    position: absolute;
+    max-width: 600px;
+}
+.verticleline3{
+
+  width:1.5px;
+  height:62px;
+  background-color: #C0A062;
+  display: flex;  
+  margin-top: 365em;
+  margin-left: 58em;
+  text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+  position: absolute; 
+}
+
+.gamelink{
+  display: flex;
+  font-family: "Droid Serif", Georgia, serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top:198.5rem;
+  margin-left: 61rem;
+  cursor: pointer;
+  position: absolute;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 0.05em
+}
+.gamelink:hover{
+color: #C0A062;
+}
+
+
+.png2{
+
+  transform: scale(0.4);
+  margin-left: -5em;
+  margin-top: 420rem;
+  margin-bottom: 10rem;
+  cursor: pointer;
+  position: absolute; 
+  filter: brightness(90%);
+
+}
+.png3{
+
+  transform: scale(0.4);
+  margin-left: 26em;
+  margin-top: 420rem;
+  margin-bottom: 10rem;
+  cursor: pointer;
+  position: absolute; 
+  filter: brightness(90%);
+
+}
+.png4{
+
+  transform: scale(0.4);
+  margin-left: -5em;
+  margin-top: 468rem;
+  margin-bottom: 10rem;
+  cursor: pointer;
+  position: absolute; 
+  filter: brightness(90%);
+
+}
+.png5{
+
+  transform: scale(0.4);
+  margin-left: 26em;
+  margin-top: 468rem;
+  margin-bottom: 10rem;
+  cursor: pointer;
+  position: absolute; 
+  filter: brightness(90%);
+
+}
+/*.png4{*/
+
+/*  transform: scale(0.4);*/
+/*  margin-left: -5em;*/
+/*  margin-top: 468rem;*/
+/*  margin-bottom: 10rem;*/
+/*  cursor: pointer;*/
+/*  position: absolute; */
+/*  filter: brightness(90%);*/
+
+/*}*/
+/*.png5{*/
+
+/*  transform: scale(0.4);*/
+/*  margin-left: 26em;*/
+/*  margin-top: 468rem;*/
+/*  margin-bottom: 10rem;*/
+/*  cursor: pointer;*/
+/*  position: absolute; */
+/*  filter: brightness(90%);*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.verticleline222{
+
+    width:160px;
+    height:1px;
+    background-color: #161616;
+    display: flex;  
+    margin-top: 492em;
+    margin-left: 23em;
+    text-shadow: -20px 10px 10px rgba(0, 0, 0, .3), 0 20px 50px rgba(0, 0, 0, .3);
+    position: absolute; 
+}
